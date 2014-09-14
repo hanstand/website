@@ -1,0 +1,12 @@
+hr {
+	width: 90%;
+	margin-left: 25px;
+	border-top: 1px solid black;
+}
+
+#resWrapper {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	width: 100%;
+}

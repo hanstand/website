@@ -1,0 +1,70 @@
+#resWrapper {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	width: 70%;
+}
+.resHead {
+	font-size: 1.3vw;
+	letter-spacing: 4px;
+	margin-bottom: 3px;
+	position: relative;
+}
+
+.resBody {
+	margin-top: 0px;
+	margin-bottom: -5px;
+	font-size: 1.1vw;
+	text-align: justify;
+}
+
+.ital {
+	font-family: "CMU Serif Upright Italic", serif;
+}
+
+.subBody {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-left: 20px;
+	line-height: 110%;
+}
+
+.subHead {
+	font-variant: small-caps;
+}
+
+.perfExperience {
+	list-style-type: none;
+	font-size: 1.1vw;
+	padding: 0px;
+	margin-left: 20px;
+	line-height: 15px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.colWrapper {
+	width: 100%;
+}
+
+.right {
+	width: 52%;
+	float: right;
+}
+
+#pdf {
+	font-size: 1.1vw;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	float: right;
+	margin-right: 60px;
+	border: 1px solid #D8D8D8;
+	padding-left: 1%;
+	padding-right: 1%;
+
+}
+
+#pdf:hover  {
+	background: #D8D8D8;
+}

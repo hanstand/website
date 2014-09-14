@@ -1,0 +1,38 @@
+.choreo {
+	width: 100%;
+}
+
+#chorImgNavWrapper {	
+	position: relative;
+}
+
+.imgLinksWrapper {
+	width:75%;
+	padding:0px 1.1%;
+	float:left;
+	position: relative;
+	margin-bottom: 1%;
+}
+
+.imgHoverWrapper{
+	display:none;
+	text-align: center;
+}
+
+.imgOverlay {
+	width: 97%;
+	height: 94%;
+	position: absolute;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+}
+
+.imgHoverWrapper h2 {
+	color: white;
+	font-size: 3vw;
+	text-align: right;
+	letter-spacing: 0.5vw;
+	position: absolute;
+	margin-left: -3%;
+	width: 100%;
+}

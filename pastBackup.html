@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+	<link href="./css/general.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="./css/past.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <!-- Add jQuery library -->
+    <script src="./3rdParty/jquery-1.11.1.min.js"></script>
+    
+    <!-- Add fancybox -->
+    <link href="./3rdParty/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="./3rdParty/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="./3rdParty/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+   
+    <script src="./js/general.js"></script>
+    <script src="./js/past.js"></script>
+</head>
+
+<body>
+<div id="content">
+	<div id="navWrapper">
+		<div id="navigation">
+			<ul id="navBar">
+				<li id="main" class="navItem firstNav">
+					<a href="./index.html"> main </a>
+				</li>
+				<li id="about" class="navItem">
+					<a href="./about.html"> about </a>
+					<ul class="fallback subNav">
+						<li><a href="./statement.html">statement</a></li>
+						<li><a href="./resume.html">r&eacute;sum&eacute;</a></li>
+					</ul>
+				</li>
+				<li id="choreography" class="navItem">
+					<a href="./choreography.html"> choreography </a>
+					<ul class="fallback subNav">
+						<li><a href="./current.html">current</a></li>
+						<li><a href="./past.html">past</a></li>
+						<li><a href="./other.html">other</a></li>
+					</ul>
+				</li>
+				<li id="performance" class="navItem">
+					<a href="./performance.html"> performance </a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<h1> Hannah Simmons | past projects </h1>
+	<div class="pastImgWrapper">
+		<div class="imgDescriptionWrapper">
+			<a class="fancybox" data-fancybox-type="iframe" href="http://player.vimeo.com/video/69037184">
+				<div class="imgHoverWrapper">
+					<div class="imgOverlay"></div>
+					<h2><i>Innocent Looking Problem</i>, 2013</h2>
+					<p>A study of 'movement paradoxes' (is a movement paradox something we are physically unable to accomplish? or a conceptual contradiction?) and 'impossible tasks' (e.g. do the material as if the front of your body is the back of your body and the back of your body is the front). The interest was not in completing the tasks but in the methodology with which the task was approached. In what ways does the mover compromise to achieve the task at hand? What does the mover choose to hold on to? Does this reveal the very essence of the material?
+				</div>
+				<img class="projects" src="./media/duet4.png">
+			</a>
+		</div>
+		<div class="imgDescriptionWrapper">
+			<a class="fancybox" data-fancybox-type="iframe" href="http://player.vimeo.com/video/69619126">
+				<div class="imgHoverWrapper">
+					<div class="imgOverlay"></div>
+					<h2><i>Only Relatively</i>, 2013</h2>
+					<p>This culmination of several previous investigative projects in which existing mathematical frameworks were translated into structures for developing movement material. 
+					<br> D
+				</div>
+				<img class="projects" src="./media/quartet9.jpg">
+			</a>
+		</div>
+		<div class="imgDescriptionWrapper">
+			<a class="fancybox" data-fancybox-type="iframe" href="http://player.vimeo.com/video/69037184">
+				<div class="imgHoverWrapper">
+					<div class="imgOverlay"></div>
+					<h2><i>Pending Equilibrium</i>, 2012</h2></div>
+				<img class="projects" src="./media/pend3.png">
+			</a>
+		</div>
+		<!--div class="imgDescriptionWrapper">
+			<a class="fancybox" data-fancybox-type="iframe" href="http://player.vimeo.com/video/69037184">
+				<div class="imgHoverWrapper">
+					<div class="imgOverlay"></div>
+					<h2><i>Corridor</i>, 2012</h2></div>
+				<img class="projects" src="./media/corridor.jpg">
+			</a>
+		</div-->
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".fancybox").fancybox();
+});
+</script>
+</body>

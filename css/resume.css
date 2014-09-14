@@ -1,0 +1,93 @@
+hr {
+	width: 100%;
+	margin-left: 0px;
+	border-top: 1px solid black;
+	margin-top: -10px;
+}
+
+.sub {
+	width: 100%;
+	margin-left: 0px;
+	margin-top: -5px;
+	border-top: .1vw solid #D8D8D8;
+}
+
+#resWrapper {
+	margin-top: 31px;
+	margin-left: 40px;
+	margin-bottom: 31px;
+	width: 75%;
+}
+
+#download {
+	color: #B0B0B0;
+	font-size: 1.1vw;
+	text-decoration: none;
+	position: relative;
+	float: right;
+	margin-top: .5vw;
+}
+
+.resHead {
+	font-size: 1.5vw;
+	letter-spacing: 4px;
+	margin-top: 2vw;
+}
+
+.resBody {
+	font-size: 1.3vw;
+	margin-top: .75vw;
+	margin-bottom: .25vw;
+}
+
+.subBody {
+	font-size: 1.15vw;
+	margin-left: 20px;
+	margin-top: 0vw;
+	margin-bottom: 0vw;
+	text-align: justify;
+	line-height: 110%;
+}
+
+.subBodySpecial {
+	font-size: 1.2vw;
+	margin-left: 20px;
+	margin-top: 0vw;
+	margin-bottom: .25vw;
+	line-height: 110%;
+}
+
+.subHead {
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	font-size: 1.3vw;
+	margin-top: .75vw;
+	margin-bottom: .5vw;
+}
+
+.colWrapper {
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-bottom: 1vw;
+}
+
+.col1 {
+	width: 27%;
+	float: left;
+	margin-right: 1%;
+}
+
+.col2 {
+	width: 71%;
+	float: left;
+	margin-left: 1%;
+}
+
+.date {
+	text-align: right;
+}
+
+.spacer {
+	padding: 4vw;
+}

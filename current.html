@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+	<link href="./css/general.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="./css/current.css" rel="stylesheet" type="text/css" media="screen" />
+   
+    <!-- Add jQuery library -->
+    <script src="./3rdParty/jquery-1.11.1.min.js"></script>
+    
+    <!-- Add fancybox -->
+    <link href="./3rdParty/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="./3rdParty/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="./3rdParty/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+    <script src="./js/general.js"></script>
+    <script src="./js/current.js"></script>
+</head>
+
+<body>
+	<div id="content">
+		<div id="navWrapper">
+			<div id="navigation">
+				<ul id="navBar">
+					<li id="main" class="navItem firstNav">
+						<a href="./index.html"> main </a>
+					</li>
+					<li id="about" class="navItem">
+						<a href="./about.html"> about </a>
+						<ul class="fallback subNav">
+							<li><a href="./statement.html">statement</a></li>
+							<li><a href="./resume.html">r&eacute;sum&eacute;</a></li>
+						</ul>
+					</li>
+					<li id="choreography" class="navItem">
+						<a href="./choreography.html"> choreography </a>
+						<ul class="fallback subNav">
+							<li><a href="./current.html">current</a></li>
+							<li><a href="./past.html">past</a></li>
+							<li><a href="./other.html">other</a></li>
+						</ul>
+					</li>
+					<li id="performance" class="navItem">
+						<a href="./performance.html"> performance </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<h1>Hannah Simmons | current projects</h1>
+		<div class="currentWrapper">
+			<div class="line"></div>
+			<img class="currentImg" src="./media/visualizeHeadCrop.png">
+			<div class="currentTextWrapper">
+				<h2 class="currentHeader">YOUR DREAMS ARE GROWING TEETH: &nbsp; EXPERIMENTS IN SCORING DANCE</h2>
+				<p class="currentText">I am experimenting with visualizing choreographic structures and exploring what it means to quantify a choreographic system. Thus far, there are three components to the project:</p>
+				<div class="currentSubWrapper">
+					<p class="currentSubHead">Part I: Collecting Data &amp; Generating Visual Scores</p>
+					<p class="currentSubText">Using an Xbox Kinect and Max MSP, I have been collecting and synthesizing data from improvisations. The original data exists in the form of x, y and z coordinates for 18 anchor points (e.g. head, torso, left foot). These data are then analyzed and manipulated to create generative visual scores. Click below to watch some of the improvisations.</p>
+				</div>
+				<a class="readMoreButtons">[read more]</a>
+				<div class="readMoreText">
+					<div class="currentSubWrapper">
+						<p class="currentSubHead">Part II: Developing a Movement Database</p>
+						<p class="currentSubText">For the purpose of live analysis (ideally, during performance). This is intended to be used as a cueing system. During performance, movements could be analyzed and compared to existing movements in the database. Certain movements would trigger certain visual scores.</p>
+						<p class="currentSubHead">Part III: Reinterpreting the Scores in Performance</p>
+						<p class="currentSubText">The dancers will use the graphical scores as a structuring mechanism for the live dance.</p>
+					</div>
+					<p class="currentText">The primary intention is to illuminate the organizational structures behind improvisation. Do these generative visual scores reveal unseen patterns? Do the scores maintain the essence of the movement/improvisation? Does this have further implications for dance notation or pedagogy? Could you reconstruct movement based on the information the score contains? If two dancers perform the same movement, is the same visualization generated? How much do our idiosyncratic bodies influence the data?</p>
+				</div>
+			<br><a class="fancybox video" data-fancybox-type="iframe" href="http://player.vimeo.com/video/105092048">IMPROVISATION 1 ></a>
+			<br><a class="fancybox video" data-fancybox-type="iframe" href="http://player.vimeo.com/video/105092048">IMPROVISATION 2 ></a>
+			<br><a class="fancybox video" data-fancybox-type="iframe" href="http://player.vimeo.com/video/105092048">IMPROVISATION 3 ></a>
+			</div>
+		</div>
+		<hr>
+		<div class="currentWrapper">
+			<img class="currentImg" src="./media/foucault3.jpg">
+			<div class="currentTextWrapper">
+				<h2 class="currentHeader">FOUCAULT PENDULUM: &nbsp; 24 HOUR DANCES</h2>
+				<p class="currentText"> In its very infancy: the idea is for a 24 hour (or possibly more based on current latitude) dance installation based around a Foucault pendulum. A Foucault pendulum is used to demonstrate the rotation of the Earth. By suspending all torsion and air resistance forces, the pendulum swings infinitely, undisturbed, on a lateral plane, as the Earth rotates underneath it. <!--This is quite a disconcerting phenonmenon since we rarely conceive of the constant rotation of the Earth.-->
+				<p class="currentText last">This is an experiment in extremes juxtaposed with a perpetual reminder of passing time. The dancers will perform the same score 24 times. As the pendulum hits a marker each hour, the score will reset. How does the movement/score change with time? How does our awareness of time change the way we view the dance? How does exhaustion affect the movement? Data will be captured during performance then analyzed to generate images demonstrating the differences between each hour. </p>
+			</div>
+		</div>
+		<hr>
+	</div>
+</body>
+</html>

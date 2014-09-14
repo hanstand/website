@@ -1,0 +1,49 @@
+.line {
+	width: 90%;
+	margin-top: 31px;
+	margin-left: 40px;
+	border-top: 1px solid;
+}
+
+#sketchHeading {
+	font-size: 1.4vw;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+
+#sketchDeatil {
+	font-size: 1vw;
+	margin-top: -20px;
+	margin-right: 80px;
+	text-align: right;
+	color: #B0B0B0;
+}
+
+#sketchWrapper {
+	width: 90%;
+	/*text-align: center;*/
+	margin-top: 15px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+.imgSketch {
+	width: 18%;
+	padding-right: 5px;
+	padding-left: 10px;
+}
+
+.firstSketch {
+	width: 16.5%;
+	padding-right: 15px;
+}
+
+.fancybox {
+	text-decoration: none;
+}
+
+hr {
+	width: 90%;
+	margin-left: 40px;
+	border-top: 1px solid black;
+}

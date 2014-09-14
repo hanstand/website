@@ -1,0 +1,42 @@
+#homeImgNavWrapper {
+	padding: 40px 20%;
+	position: relative;
+}
+
+.homePhoto {
+	width: 100%;
+}
+
+.imgLinksWrapper {
+	width:31%;
+	padding:0px 1%;
+	float:left;
+	position: relative;
+}
+
+.imgHoverWrapper{
+	display:none;
+	text-align: center;
+}
+
+.imgOverlay {
+	width: 94%;
+	height: 99%;
+	position: absolute;
+	background-color: rgba(0,0,0,.7);
+	text-align: center;
+}
+
+.imgHoverWrapper h2 {
+	color: white;
+	font-size: 2.7vw;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	margin-left: -3%;
+	width: 100%;
+}
+
+#contact {
+	font-size: 1vw;
+}

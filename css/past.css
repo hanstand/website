@@ -1,0 +1,97 @@
+.projectWrapper {
+	width: 100%;
+	height: 20vw;
+	float: left;
+	position: relative;
+	margin-top: 31px;
+}
+
+.projectImg {
+	width: 30%;
+	margin-left: 40px;
+	float: left;
+	height: 100%;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: inline-block;
+}
+
+.textWrapper {
+	height: 100%;
+	width: 47%;
+	float: left;
+	padding-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 22px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	display: inline-block;
+}
+
+.projectHeader {
+	font-size: 1.3vw;
+	margin-bottom: 5px;
+}
+
+.projectText {
+	margin-top: 7px;
+	text-align: justify;
+}
+
+.credits {
+	font-size: 1vw;
+	bottom: 0px;
+}
+
+.video {
+	color: #B0B0B0;
+	font-size: 1.2vw;
+	text-decoration: none;
+	position: absolute;
+	bottom: -1.5vw;
+	right: 19vw;
+}
+
+
+
+/*.imgHoverWrapper{
+	display:none;
+	text-align: center;
+}
+
+.imgOverlay {
+	width: 30%;
+	height: 97%;
+	margin-left: 40px;
+	margin-top: 20px;
+	position: absolute;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+}
+
+.imgHoverWrapper h2 {
+	width: 31.3%;
+	color: white;
+	font-size: 1.2vw;
+	text-align: left;
+	position: absolute;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	width: 96%;
+}
+
+.imgHoverWrapper p {
+	width: 29%;
+	color: white;
+	font-size: 1.1vw;
+	position: absolute;
+	margin-top: 2%;
+	margin-left: 45px;
+	text-align: justify;
+} */
+
+
+
+
