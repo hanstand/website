@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en">
+<head>
+	<link href="./css/general.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="./css/current.css" rel="stylesheet" type="text/css" media="screen" />
+   
+    <!-- Add jQuery library -->
+    <script src="./3rdParty/jquery-1.11.1.min.js"></script>
+    
+    <!-- Add fancybox -->
+    <link href="./3rdParty/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="./3rdParty/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="./3rdParty/fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+    <script src="./js/general.js"></script>
+    <script src="./js/current.js"></script>
+</head>
+
+<body>
+<div id="content">
+	<div id="totalWrapper">
+		<div id="headerWrapper">
+			<h1 id="name"><a href="./index.html">HANNAH SIMMONS</a></h1>
+			<div id="navigationWrapper">
+				<div id="navigation">
+					<ul id="navigationBar">
+						<li id="about" class="navItem">
+							<a href="./about.html">ABOUT</a>
+							<ul class="fallback subNav">
+								<li><a href="./statement.html">STATEMENT</a></li>
+								<li><a href="./resume.html">R&Eacute;SUM&Eacute;</a></li>
+							</ul>
+						</li>
+						<li id="choreography" class="navItem">
+							<a href="./choreography.html">CHOREOGRAPHY</a>
+							<ul class="fallback subNav">
+								<li><a href="./current.html">CURRENT</a></li>
+								<li><a href="./past.html">PAST</a></li>
+								<li><a href="./other.html">OTHER</a></li>
+							</ul>
+						</li>
+						<li id="performance" class="navItem">
+							<a href="./performance.html">PERFORMANCE</a>
+							<ul class="fallback subNav">
+								<li><a href="./performance.html">REEL</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr class="break">
+		<div class="subTitle">
+			<h2>CURRENT PROJECTS</h2>
+		</div>
+	</div>
+	<hr class="first main">
+	<div class="currentProjectWrapper">
+		<img class="currentImg" src="./media/visualizeHeadCrop.png">
+		<div class="currentTextWrapper">
+			<h2 class="currentHeader">YOUR DREAMS ARE GROWING TEETH:</h2>
+			<h3 class="currentSubHeader">EXPERIMENTS IN DATA &amp; DANCE</h3>
+			<p class="currentText">I am interested in experimenting with visualizing choreographic structures and exploring what it means to quantify a choreographic system. Structure in improvisation is the product of dynamic, self-organizing systems. In an attempt to better understand spontaneous creation, I have begun collecting and synthesizing data from improvisations. My intention is to unearth the organizational systems in an improvised dance by observing patterns in the data. This data will then be used to generate visual maps of these systems. Do these generative maps reveal unseen patterns? Help us to understand the self-organizing principles of an improvisation? Can we use the data to manipulate the dance? Re-imagine what else it might look like? How do our idiosyncratic bodies influence the data?</p>
+			<a class="readMoreButtons">READ MORE ></a>
+			<div class="readMoreText">
+				<p class="currentText">Using an Xbox Kinect and Max MSP, I have begun a number of experiments. The original data exists in the form of x, y, and z coordinates (describing position) for 18 anchor points of the body (e.g. head, torso, left foot). This data is then analyzed and manipulated to create maps that illuminate the meaningful organizational structures behind the improvisations. To watch some early improvisations, click below.</p>
+				<p class="currentText">In live performance, I intend to track the body movements of the performers and, in real time, use this data to generate performance-enhancing visualizations. The audience will be able to simultaneously engage with both the dancers and the visual maps and see the link between movement and data.</p>
+				<p class="currentText">As an offshoot, I am considereding developing a movement database using machine learning algorithms. This could be used as a sort of cueing system during live performance. Movements could be analyzed and compared to existing movements in the database. Certain movements or patterns could trigger certain events or changes in the visualizations.</p>
+				<p class="currentText">The primary intention is to illuminate the organizational structures behind improvisation. What is the relevance of understanding and synthesizing an organic physical system such as dance? Does seeing the data change the way we dance? Does it change the way we perceive dance?</p>	
+			</div>
+			<br>
+			<a class="fancybox video" data-fancybox-type="iframe" href="http://player.vimeo.com/video/105092048"> WATCH > </a>
+		</div>
+	</div>
+	<hr class="main">
+	<div class="currentProjectWrapper">
+		<img class="currentImg" src="./media/foucault3.jpg">
+		<div class="currentTextWrapper">
+			<h2 class="currentHeader">FOUCAULT PENDULUM:</h2>
+			<h3 class="currentSubHeader">TWENTY-FOUR-HOUR DANCES</h3>
+			<p class="currentText"> In its very infancy: the idea is for a 24-hour (or possibly more based on current latitude) dance installation based around a Foucault pendulum. A Foucault pendulum is used to demonstrate the rotation of the Earth. By suspending all torsion and air resistance forces, the pendulum is able to swing infinitely, undisturbed, on a lateral plane, as the Earth rotates underneath it. This is quite a disconcerting phenonmenon since we rarely conceive of the constant rotation of the Earth.</p>
+			<a class="readMoreButtons">READ MORE ></a>
+			<div class="readMoreText">
+				<p class="currentText">This is an experiment in extremes juxtaposed with a perpetual reminder of passing time. The dancers will perform the same score 24 times. As the pendulum hits a marker each hour, the score will reset. How does the movement/score change with time? How does our awareness of time change the way we view the dance? How does exhaustion affect the movement? Data will be captured during performance then analyzed to generate images demonstrating the differences between each hour. </p>
+			</div>
+		</div>
+	</div>
+	<hr class="main">
+</div>
+</body>
+</html>
