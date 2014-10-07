@@ -1,4 +1,4 @@
-hr {
+.main {
 	width: 100%;
 	margin-left: 0px;
 	border-top: 1px solid black;
@@ -9,23 +9,28 @@ hr {
 	width: 100%;
 	margin-left: 0px;
 	margin-top: -5px;
-	border-top: .1vw solid #D8D8D8;
+	border-top: .08vw solid #D8D8D8;
 }
 
 #resWrapper {
-	margin-top: 31px;
-	margin-left: 40px;
-	margin-bottom: 31px;
-	width: 75%;
+	width: 77%;
+	float: left;
+	position: relative;
+	margin-top: 7vw;
+	margin-left: 12vw;
+	
 }
 
 #download {
 	color: #B0B0B0;
 	font-size: 1.1vw;
 	text-decoration: none;
-	position: relative;
 	float: right;
-	margin-top: .5vw;
+	margin-top: 2.75vw;
+}
+
+#download:hover {
+	color: #000;
 }
 
 .resHead {

@@ -1,22 +1,22 @@
+.statementWrapper {
+	width: 83%;
+	float: left;
+	position: relative;
+	margin-top: 8vw;
+	margin-left: 9vw;
+	
+}
 .statementImg {
-	width: 20%;
-	margin-left: 40px;
-	margin-top: 15px;
+	width: 25%;
+	margin-top: 1vw;
 	float: left;
 	border: 1px solid #D8D8D8;
 }
 
 .statementText {
-	width: 47%;
+	width: 55%;
 	float: left;
-	margin-left: 20px;
-	margin-top: 15px;
+	margin-left: 2vw;
 	text-align: justify;
 }
 
-.statementWrapper {
-	width: 100%;
-	float: left;
-	position: relative;
-	
-}

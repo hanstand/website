@@ -1,0 +1,86 @@
+.line {
+	width: 88%;
+	margin-top: 31px;
+	margin-left: 40px;
+	border-top: 1px solid;
+}
+
+hr {
+	width: 88%;
+	margin-left: 40px;
+	border-top: 1px solid black;
+	margin-bottom: 0px;
+}
+
+.currentWrapper {
+	width: 100%;
+	float: left;
+	position: relative;
+}
+
+.currentImg {
+	width: 25%;
+	margin-left: 40px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+
+.currentTextWrapper {
+	width: 58%;
+	float: left;
+	padding-left: 20px;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+
+.currentHeader {
+	font-size: 1.3vw;
+	margin-bottom: 5px;
+}
+
+.currentText {
+	margin-top: 7px;
+	text-align: justify;
+}
+
+.currentSubWrapper {
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+.currentSubHead {
+	font-size: 1.1vw;
+	margin-left: 2%;
+	margin-bottom: .3%;
+	font-variant: small-caps;
+}
+
+.currentSubText {
+	font-size: 1.1vw;
+	margin-left: 3%;
+	margin-top: .3%;
+	text-align: justify;
+}
+
+.video {
+	color: #B0B0B0;
+	font-size: 1.1vw;
+	text-decoration: none;
+	float: right;
+}
+
+.readMoreText {
+	display: none;
+}
+
+.readMoreButtons {
+	color: #B0B0B0;
+	font-size: 1.1vw;
+	cursor: pointer;
+}
+
+.last {
+	margin-bottom: 0px;
+}

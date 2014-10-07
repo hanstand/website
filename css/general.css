@@ -28,8 +28,101 @@ body {
 	font-size: 1.3vw;
 }
 
-#navWrapper {
+#totalWrapper {
+	position: fixed;
 	width: 100%;
+	z-index: 999;
+	background: white;
+	margin-top: -1vw;
+	opacity: .9;
+}
+#headerWrapper {
+	width: 100%;
+	float: left;
+}
+
+#name {
+	margin-left: 9vw;
+	margin-right: 2vw;
+	margin-bottom: -1vw;
+	float: left;
+}
+
+#name a{
+	text-decoration: none;
+	color: #000;
+}
+
+#navigationWrapper {
+	float: right;
+	margin-top: .5vw;
+	/*margin-right: 9vw;*/
+	/*display: table;*/
+}
+
+#navigationBar {
+	list-style-type: none;
+	padding: 0;
+	float: right;
+	margin-right: 9vw;
+	margin-top: 2.5vw;
+	margin-bottom: 0vw;
+}
+
+.navItem {
+	display: inline;
+	position: relative;
+	font-size: 1.1vw;
+	padding-left: 3vw;
+}
+
+.navItem a {
+	text-decoration: none;
+	color: #B0B0B0;
+}
+
+.navItem a:hover {
+	color: #000;
+}
+
+.subNav {
+	position: absolute;
+	list-style-type: none;
+	padding-left: 3vw;
+	color: #B0B0B0;
+	font-size: .9vw;
+	margin-top: .5vw;
+}
+
+.subNav li:hover a {
+	color: #000;
+}
+
+.subTitle h2{
+	margin-top: -.5vw;
+	margin-bottom: 0vw;
+	margin-left: 9vw;
+	color: #B0B0B0;
+}
+
+.break {
+	margin-left: 9vw;
+	margin-right: 9vw;
+	margin-top: 0vw;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+}
+
+.footerText p{
+	color: #B0B0B0;
+	font-size: 1.1vw;
+}
+
+/*#navWrapper {
+	width: 50%;
 	display: table;
 }
 
@@ -78,7 +171,7 @@ body {
 	position: absolute;
 	font-size: 1.1vw;
 	word-spacing: 1.1vw;
-	/*border: 1px solid #D8D8D8;*/
 }
+*/
 
 

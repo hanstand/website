@@ -1,5 +1,5 @@
 #homeImgNavWrapper {
-	padding: 40px 20%;
+	padding: 4vw 20%;
 	position: relative;
 }
 
@@ -9,6 +9,7 @@
 
 .imgLinksWrapper {
 	width:31%;
+	margin-top: 3.5vw;
 	padding:0px 1%;
 	float:left;
 	position: relative;
