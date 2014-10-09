@@ -1,5 +1,6 @@
 $(document).ready ( function(){
 	setupOverlays();
+	loadPage();
 });
 
 function setupOverlays() {
@@ -14,3 +15,10 @@ function setupOverlays() {
 		});
 	});
 }
+
+function loadPage() {
+	$(".loadingImg").fadeOut(2000, function() {
+		$("#homeImgNavWrapper").fadeIn(1000);
+	});
+}
+

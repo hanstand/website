@@ -1,10 +1,11 @@
+
 .otherWrapper {
 	width: 100%;
 	float: left;
 	position: relative;
 	margin-top: 1vw;
 	margin-left: 9vw;
-	
+	display: none;
 }
 
 .headingWrapper {
@@ -35,11 +36,6 @@
 	/*padding-left: 10px;*/
 }
 
-/*.firstSketch {
-	width: 16.5%;
-	padding-right: 15px;
-}
-*/
 .fancybox {
 	text-decoration: none;
 }

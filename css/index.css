@@ -1,6 +1,7 @@
 #homeImgNavWrapper {
 	padding: 4vw 20%;
 	position: relative;
+	display: none;
 }
 
 .homePhoto {

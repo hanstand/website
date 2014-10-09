@@ -28,6 +28,14 @@ body {
 	font-size: 1.3vw;
 }
 
+.loadingImg {
+	z-index: 9999;
+	position: fixed;
+	top: 30%;
+    left: 50%;
+
+}
+
 #totalWrapper {
 	position: fixed;
 	width: 100%;

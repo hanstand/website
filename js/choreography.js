@@ -1,5 +1,6 @@
 $(document).ready ( function(){
 	setupOverlays();
+	loadPage();
 });
 
 function setupOverlays() {
@@ -12,5 +13,11 @@ function setupOverlays() {
 		$(this).mouseleave(function(){
 			$overlay.stop().fadeOut(500);
 		});
+	});
+}
+
+function loadPage() {
+	$(".loadingImg").fadeOut(2000, function() {
+		$("#chorImgNavWrapper").fadeIn(1000);
 	});
 }
